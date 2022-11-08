@@ -2,6 +2,8 @@ KSP Display Version 3 for 1.12
 (KSPlights3 internally)
 
 Now in COLOR!
+Demonstration video:
+[https://youtu.be/4d2SS2SViEA]
 
 Requires ModuleManager
 
