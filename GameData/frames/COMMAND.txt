@@ -1,0 +1,28 @@
+FULL
+
+
+
+ffmpeg -i input.mp4 -vf scale=20:20 -vsync vfr $file%03d.png
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+EXPERIMENTAL
+
+HALF
+
+ffmpeg -i input.mp4 -vf "select=not(mod(n\,2))" -vsync vfr $file%03d.png
+
+QUARTER
+
+ffmpeg -i input.mp4 -vf "select=not(mod(n\,4))" -vsync vfr $file%03d.png
